@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e2b3238.css",
+    "main.js": "/static/js/main.a8b26bee.js",
+    "static/js/787.6bfed4d0.chunk.js": "/static/js/787.6bfed4d0.chunk.js",
+    "static/media/newlyweds.png": "/static/media/newlyweds.777503a28690a038ae08.png",
+    "static/media/Smart_manager.png": "/static/media/Smart_manager.b70b9eb27ebe0411e368.png",
+    "static/media/OMCoding.png": "/static/media/OMCoding.516a4b27f4a00a54b6e9.png",
+    "static/media/food.png": "/static/media/food.cec845d833ec897fa1a0.png",
+    "static/media/pralineco.png": "/static/media/pralineco.ad98c6fdb51148645f54.png",
+    "static/media/E-comerce.png": "/static/media/E-comerce.7ed817548e97ce254ca6.png",
+    "static/media/AJIL.png": "/static/media/AJIL.7196e6498c8bbf781911.png",
+    "static/media/about-user.png": "/static/media/about-user.2ee0819bb32e42267865.png",
+    "static/media/Contact us-amico.png": "/static/media/Contact us-amico.368961b139d2e5f79c83.png",
+    "static/media/delivery_sass.png": "/static/media/delivery_sass.a490caf380304f6b7a80.png",
+    "static/media/personalImage.png": "/static/media/personalImage.594cfe009a01aded31db.png",
+    "static/media/Crud.png": "/static/media/Crud.98f856b6268e88ac21ca.png",
+    "index.html": "/index.html",
+    "main.1e2b3238.css.map": "/static/css/main.1e2b3238.css.map",
+    "main.a8b26bee.js.map": "/static/js/main.a8b26bee.js.map",
+    "787.6bfed4d0.chunk.js.map": "/static/js/787.6bfed4d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e2b3238.css",
+    "static/js/main.a8b26bee.js"
+  ]
+}
