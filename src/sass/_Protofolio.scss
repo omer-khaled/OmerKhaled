@@ -1,0 +1,102 @@
+@use './Colors';
+.Protofolio{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #0d6efd;
+        color: transparent;
+        position: relative;
+        top: 50px;
+        overflow: hidden;
+        transition: 0.3s;
+        &::before{
+            overflow: hidden;
+            content: "Protofolio";
+            width: 0;
+            position:absolute;
+            top: 0;
+            left: 0;
+            transition: 0.3s;
+            -webkit-text-fill-color: #0d6efd;
+        }
+        &:hover::before{
+            width: 100%;
+        }
+    }
+    .info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        .swiper {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 400px;
+            height: 400px;
+            .card{
+                width:100%;
+                height: 100%;
+                position: relative;
+                overflow: hidden;
+                h3{
+                    position: absolute;
+                    // color: #0d6efd;
+                    padding: 10px;
+                    top: -50%;
+                    left: 0;
+                    transition: 0.3s;
+                }
+                .links{
+                    position: absolute;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    bottom: -50%;
+                    padding:0 10px 10px 10px;
+                    transition: 0.3s;
+                    button{
+                        &:nth-child(1){
+                            margin-right: 10px;
+                        }
+                        padding: 10px;
+                    }
+                }
+                &:hover h3{
+                    top: 10px;
+                }
+                &:hover .links{
+                    bottom: 10px;
+                }
+            }
+        }
+        .swiper-slide img {
+            display: block;
+            width:100%;
+            height: 100%;
+        }
+    }
+}
+@media (max-width:992px) {
+    .Protofolio{
+        height: 100vh;
+        .info{
+            flex-grow: 1;
+            .swiper-slide{
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}

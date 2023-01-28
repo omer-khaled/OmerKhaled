@@ -1,0 +1,204 @@
+.Home{
+    // overflow: hidden;
+    height: 95vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    i{
+        font-size: 50px;
+        margin-right: 10px;
+        &.html{
+            color: #e96228;
+            position: absolute;
+            left: 25%;
+            top: 20%;
+            animation: anim-icon 1s linear infinite;
+        }
+        &.css{
+            color: #2965f1;
+            position: absolute;
+            left: 75%;
+            top: 20%;
+            animation: anim-icon 1s linear infinite;
+        }
+        &.js{
+            color: #efd81d;
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            animation: anim-icon-rl 1s linear infinite;
+        }
+        &.boot{
+            color: #8912fc;
+            position: absolute;
+            left: 75%;
+            top: 75%;
+            animation: anim-icon 1s linear infinite;
+        }
+        &.scss{
+            color: #c76494;
+            position: absolute;
+            left: 50%;
+            top: 75%;
+            animation: anim-icon-rl 1s linear infinite;
+        }
+        &.react{
+            color: #2965f1;
+            position: absolute;
+            left: 25%;
+            top: 75%;
+            animation: anim-icon 1s linear infinite;
+        }
+        @keyframes anim-icon {
+            0%{
+                transform: translateY(-10px);
+            }   
+            50%{
+                transform: translateY(10px);
+            }  
+            100%{
+                transform: translateY(-10px);
+            }           
+        }
+        @keyframes anim-icon-rl {
+            0%{
+                transform: translatex(-10px);
+            }   
+            50%{
+                transform: translatex(10px);
+            }  
+            100%{
+                transform: translatex(-10px);
+            }           
+        }
+    }
+    .links{
+        @extend %shard;
+        flex-grow: 0.5;
+        a{
+            text-decoration: none;
+            color: #000;
+            font-size: 25px;
+            transition: 0.3s;
+            &:nth-child(2){
+                margin: 15px 0;
+            }
+            &:hover{
+                transform: scale(1.5);
+                color: #0d6efd;
+            }
+        }
+    }
+    .info{
+        @extend %shard;
+        flex-grow: 1;
+        .btn{
+            background-color: #0d6efd;
+            transition: 0.3s;
+            &:hover{
+                color: #fff;
+            }
+        }
+    } 
+    .personal-image{
+        width: 160px;
+        height: 160px;
+        background:#0d6efd;
+        border-radius: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        .front{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 10px;
+            transition: 0.3s;
+            &:hover{
+                top: 25px;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+%shard{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width:992px) {
+    .bar{
+        width: 100%;
+        border-radius: 0;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        transform: unset;
+    }
+    .Home{
+        flex-direction: column;
+        i{
+            z-index: 4;
+            font-size: 30px;
+            &.html{
+                left: 25px;
+                top: 25px;
+            }
+            &.js{
+                left: 25px;
+                top: 50%;
+            }
+            &.css{
+                right: 25px;
+                top: 25px;
+                transform: translateX(-25%);
+            }
+            &.react{
+                left: 25px;
+                bottom: 25px;
+                top: unset;
+            }
+            &.scss{
+                right: 25px;
+                top: 50%;
+                left: unset;
+            }
+            &.boot{
+                right: 25px;
+                bottom: 25px;
+                left: unset;
+                top: unset;
+            }
+        }
+        .links{
+            height: auto;
+            order: 3;
+            flex-direction: row;
+            flex-grow: unset;
+        }
+        .info{
+            height: auto;
+            order: 2;
+            h1{
+                font-size: 20px;
+            }
+            h4{
+                font-size: 18px;
+            }
+            p{
+                text-align: center;
+                font-size: 14px;
+            }
+            flex-grow: unset;
+        }
+        .personal-image{
+            order: 1;
+            flex-grow: unset;
+        }
+    }
+}
