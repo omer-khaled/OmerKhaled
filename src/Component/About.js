@@ -17,7 +17,7 @@ function About(){
                     <div className='details'>
                         <div>
                             <p>01+</p>
-                            <p>years experience</p>
+                            <p>Years of Experience</p>
                         </div>
                         <div>
                             <p>15+</p>
@@ -25,14 +25,14 @@ function About(){
                         </div>
                         <div>
                             <p>01+</p>
-                            <p>Companies Worked</p>
+                            <p>Companies Worked in</p>
                         </div>
                     </div>
                     <ul>
-                        <li>web developer, with extensive knowledge.</li>
-                        <li>less than one year of experience.</li>
-                        <li>working in web technologies such bootstrap and react</li>
-                        <li>student at cairo univercity in faculty of information technology.</li>
+                        <li>Web developer, with extensive knowledge.</li>
+                        <li>Having 1+ year of experience of developing end to end projects.</li>
+                        <li>Working in web technologies such bootstrap and react</li>
+                        <li>I am a computer science student at Cairo University.</li>
                     </ul>
                 </motion.div>
                 <div className='right'>

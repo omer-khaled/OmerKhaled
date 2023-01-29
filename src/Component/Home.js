@@ -25,11 +25,14 @@ function Home(){
             </motion.div>
             <div className="info" data-aos="flip-down" data-aos-duration="1500">
                 <h1>Hi, I'am Omer khaled</h1>
-                <h4>Frontend react dev</h4>
-                <p>High level experience in web design and developmetn knowledge, producing quality work</p>
+                <h4>Frontend <span className='primary-color'>React</span> Developer</h4>
+                <p>
+                    I am interested in web development and software engineering and can design and
+                    implement user interface components for JavaScript-based web applications.
+                </p>
                 <a className="primary" href='omer-khaled.pdf' download="Resume.pdf">
                     <button className='btn primary'>
-                        Download c.v
+                        Download cv
                     </button>
                 </a>
             </div>

@@ -92,11 +92,16 @@
     .info{
         @extend %shard;
         flex-grow: 1;
+        P{
+            width: 50%;
+            text-align: center;
+        }
         .btn{
             background-color: #0d6efd;
+            color: #fff;
             transition: 0.3s;
             &:hover{
-                color: #fff;
+                color: #000;
             }
         }
     } 
@@ -184,6 +189,10 @@
         .info{
             height: auto;
             order: 2;
+            P{
+                width: 100%;
+                text-align: center;
+            }
             h1{
                 font-size: 20px;
             }
@@ -201,4 +210,7 @@
             flex-grow: unset;
         }
     }
+}
+.primary-color{
+    color: #0d6efd;
 }
