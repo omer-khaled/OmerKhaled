@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/OmerKhaled/static/css/main.f5bc68fe.css",
-    "main.js": "/OmerKhaled/static/js/main.33e31f18.js",
+    "main.css": "/OmerKhaled/static/css/main.032e218c.css",
+    "main.js": "/OmerKhaled/static/js/main.f858f573.js",
     "static/js/787.6bfed4d0.chunk.js": "/OmerKhaled/static/js/787.6bfed4d0.chunk.js",
     "static/media/newlyweds.png": "/OmerKhaled/static/media/newlyweds.777503a28690a038ae08.png",
+    "static/media/movies.png": "/OmerKhaled/static/media/movies.dfc8edd1f59b54c6f64d.png",
     "static/media/Smart_manager.png": "/OmerKhaled/static/media/Smart_manager.b70b9eb27ebe0411e368.png",
     "static/media/OMCoding.png": "/OmerKhaled/static/media/OMCoding.516a4b27f4a00a54b6e9.png",
     "static/media/food.png": "/OmerKhaled/static/media/food.cec845d833ec897fa1a0.png",
     "static/media/pralineco.png": "/OmerKhaled/static/media/pralineco.ad98c6fdb51148645f54.png",
+    "static/media/NoteApp.png": "/OmerKhaled/static/media/NoteApp.e3dee40270303b8d7fca.png",
     "static/media/E-comerce.png": "/OmerKhaled/static/media/E-comerce.7ed817548e97ce254ca6.png",
     "static/media/AJIL.png": "/OmerKhaled/static/media/AJIL.7196e6498c8bbf781911.png",
     "static/media/about-user.png": "/OmerKhaled/static/media/about-user.2ee0819bb32e42267865.png",
     "static/media/Contact us-amico.png": "/OmerKhaled/static/media/Contact us-amico.368961b139d2e5f79c83.png",
+    "static/media/socialmedia.png": "/OmerKhaled/static/media/socialmedia.a85ef24bb35b1d4ae8fd.png",
     "static/media/delivery_sass.png": "/OmerKhaled/static/media/delivery_sass.a490caf380304f6b7a80.png",
     "static/media/personalImage.png": "/OmerKhaled/static/media/personalImage.594cfe009a01aded31db.png",
     "static/media/Crud.png": "/OmerKhaled/static/media/Crud.98f856b6268e88ac21ca.png",
     "index.html": "/OmerKhaled/index.html",
-    "main.f5bc68fe.css.map": "/OmerKhaled/static/css/main.f5bc68fe.css.map",
-    "main.33e31f18.js.map": "/OmerKhaled/static/js/main.33e31f18.js.map",
+    "main.032e218c.css.map": "/OmerKhaled/static/css/main.032e218c.css.map",
+    "main.f858f573.js.map": "/OmerKhaled/static/js/main.f858f573.js.map",
     "787.6bfed4d0.chunk.js.map": "/OmerKhaled/static/js/787.6bfed4d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5bc68fe.css",
-    "static/js/main.33e31f18.js"
+    "static/css/main.032e218c.css",
+    "static/js/main.f858f573.js"
   ]
 }
