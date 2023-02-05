@@ -1,4 +1,7 @@
 import comerce from '../Assets/E-comerce.png';
+import noteapp from '../Assets/NoteApp.png';
+import movie from '../Assets/movies.png';
+import social from '../Assets/socialmedia.png';
 import pralineco from '../Assets/pralineco.png';
 import newlyweds from '../Assets/newlyweds.png';
 import AJIL from '../Assets/AJIL.png';
@@ -55,6 +58,50 @@ function Protofolio(){
                                 <a target="_blank" href="https://omer-khaled.github.io/E-commerec/">
                                     <button className="btn btn-c">
                                         Demo
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="card">
+                            <img src={social} alt='card_image'/>
+                            <h3 className='soc'>Social Media</h3>
+                            <div className="links">
+                                <a target="_blank" href="https://github.com/omer-khaled/social">
+                                    <button className="btn btn-soc">
+                                        GitHub
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="card">
+                            <img src={movie} alt='card_image'/>
+                            <h3 className='mov'>Movies</h3>
+                            <div className="links">
+                                <a target="_blank" href="https://github.com/omer-khaled/movies">
+                                    <button className="btn btn-mov">
+                                        GitHub
+                                    </button>
+                                </a>
+                                <a target="_blank" href="https://omer-khaled.github.io/movies/">
+                                    <button className="btn btn-mov">
+                                        Demo
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="card">
+                            <img src={noteapp} alt='card_image'/>
+                            <h3 className='not'>NoteApp</h3>
+                            <div className="links">
+                                <a target="_blank" href="https://github.com/omer-khaled/NoteApp">
+                                    <button className="btn btn-not">
+                                        GitHub
                                     </button>
                                 </a>
                             </div>
