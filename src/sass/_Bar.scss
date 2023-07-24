@@ -1,5 +1,5 @@
 .bar{
-    width: 200px;
+    width: 50%;
     position: fixed;
     bottom: 10px;
     left: 50%;
@@ -17,35 +17,36 @@
         color: #000;
         position: relative;
         overflow: hidden;
-        .on-hover{
-            position: absolute;
-            padding: 4px;
-            height: 25px;
-            background-color: rgba(137, 136, 136, 0.5);
-            border-radius: 5px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            top:-80px;
-            left: 50%;
-            transform: translateX(-50%);
-            transition: 0.3s;
-            &::before{
-                content: "";
-                position: absolute;
-                top: 100%;
-                border-width: 10px;
-                border-style: solid;
-                border-color: transparent;
-                border-top-color: rgba(137, 136, 136, 0.5);
-            }
+        text-decoration: none;
+        span{
+            font-size: 11px;
         }
-        &:hover{
-            overflow: unset;
-            .on-hover{
-                top:-40px;
-            }
-        }
+        // .on-hover{
+        //     position: absolute;
+        //     padding: 4px;
+        //     // height: 25px;
+        //     font-size: 12px !important;
+        //     font-weight: 100 !important;
+        //     background-color: rgba(137, 136, 136, 0.5);
+        //     border-radius: 5px;
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     top:-80px;
+        //     left: 50%;
+        //     transform: translateX(-50%);
+        //     transition: 0.3s;
+        //     &::before{
+        //         content: "";
+        //         position: absolute;
+        //         top: 100%;
+        //         border-width: 5px;
+        //         border-style: solid;
+        //         border-color: transparent;
+        //         border-top-color: rgba(137, 136, 136, 0.5);
+        //     }
+
+        // }
         i{
             font: {
                 size: 25px;
@@ -54,10 +55,12 @@
         }
         &:hover{
             // font-size: 30px;
-            transform: scale(1.5);
+            // transform: scale(1.5);
             color:rgb(57, 138, 244);
         }
         transition: 0.5s;
     }
-
+    @media (max-width:992px) {
+        bottom: 0 !important;
+    }
 }

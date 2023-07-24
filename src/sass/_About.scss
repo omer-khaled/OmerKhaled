@@ -41,17 +41,24 @@
             >ul{
                 width: 100%;
                 padding: 0;
-                list-style:square;
+                list-style: none;
                 margin-top: 30px;
                 font-size: 16px;
                 position: relative;
-                left: 20px;
-                li::first-letter{   
-                    font-size: 20px;
-                    color: #0d6efd;
-                }
-                li::marker{
-                    color: #0d6efd;
+                li{
+                    padding: 0;
+                    margin-left: 0;
+                    p{
+                        margin: 0;
+                        word-wrap: break-word;
+                    }
+                    p::first-letter{   
+                        font-size: 20px;
+                        color: #0d6efd;
+                    }
+                    p::marker{
+                        color: #0d6efd;
+                    }
                 }
             }
             .details{
@@ -65,8 +72,11 @@
                     padding:10px;
                     border-radius: 4px;
                     text-align: center;
-                    width: 20%;
+                    // width: 20%;
                     transition: 0.3s;
+                    &:nth-child(2){
+                        margin: 0 15px;
+                    }
                     &:hover{
                         background-color: #fff;
                         color: #0d6efd;
@@ -109,6 +119,9 @@
                         width:30%;
                         p{
                             font-size: 15px;
+                        }
+                        &:nth-child(2){
+                            margin: 0 ;
                         }
                     }
                 }

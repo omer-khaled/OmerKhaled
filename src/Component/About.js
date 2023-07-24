@@ -29,10 +29,10 @@ function About(){
                         </div>
                     </div>
                     <ul>
-                        <li>Web developer, with extensive knowledge.</li>
-                        <li>Having 1+ year of experience of developing end to end projects.</li>
-                        <li>Working in web technologies such bootstrap and react</li>
-                        <li>I am a computer science student at Cairo University.</li>
+                        <li><p>Web developer, with extensive knowledge.</p></li>
+                        <li><p>Having 1+ year of experience of developing end to end projects.</p></li>
+                        <li><p>Working in web technologies such bootstrap and react</p></li>
+                        <li><p>I am a computer science student at Cairo University.</p></li>
                     </ul>
                 </motion.div>
                 <div className='right'>

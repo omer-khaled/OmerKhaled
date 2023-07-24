@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../public/Font/NotoSans-Black.ttf'),
+  url('../public/Font/NotoSans-Bold.ttf'),
+  url('../public/Font/NotoSans-Light.ttf'),
+  url('../public/Font/NotoSans-Medium.ttf');
+}
 body,*{
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'CustomFont', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 #root{
   overflow-x: hidden;
   overflow-y: hidden;

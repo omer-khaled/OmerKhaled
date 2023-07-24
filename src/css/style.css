@@ -1,6 +1,5 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 .bar {
-  width: 200px;
+  width: 50%;
   position: fixed;
   bottom: 10px;
   left: 50%;
@@ -17,15 +16,25 @@
 }
 .bar .link {
   color: #000;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
   transition: 0.5s;
+}
+.bar .link span {
+  font-size: 11px;
 }
 .bar .link i {
   font-size: 25px;
   cursor: pointer;
 }
 .bar .link:hover {
-  transform: scale(1.5);
   color: rgb(57, 138, 244);
+}
+@media (max-width: 992px) {
+  .bar {
+    bottom: 0 !important;
+  }
 }
 
 .Home {
@@ -34,51 +43,65 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.Home i {
+.Home svg {
+  width: 40px !important;
+  height: 40px !important;
+}
+.Home i, .Home svg {
+  width: 20px;
+  height: 20px;
   font-size: 50px;
   margin-right: 10px;
 }
-.Home i.html {
+.Home i.html, .Home svg.html {
   color: #e96228;
   position: absolute;
   left: 25%;
   top: 20%;
   animation: anim-icon 1s linear infinite;
+  width: 60px !important;
+  height: 60px !important;
 }
-.Home i.css {
+.Home i.css, .Home svg.css {
   color: #2965f1;
   position: absolute;
   left: 75%;
   top: 20%;
   animation: anim-icon 1s linear infinite;
+  width: 60px !important;
+  height: 60px !important;
 }
-.Home i.js {
+.Home i.js, .Home svg.js {
   color: #efd81d;
   position: absolute;
   left: 50%;
   top: 20%;
   animation: anim-icon-rl 1s linear infinite;
+  width: 60px !important;
+  height: 60px !important;
 }
-.Home i.boot {
+.Home i.boot, .Home svg.boot {
   color: #8912fc;
   position: absolute;
   left: 75%;
   top: 75%;
   animation: anim-icon 1s linear infinite;
 }
-.Home i.scss {
+.Home i.scss, .Home svg.scss {
   color: #c76494;
   position: absolute;
   left: 50%;
   top: 75%;
   animation: anim-icon-rl 1s linear infinite;
 }
-.Home i.react {
+.Home i.react, .Home svg.react {
   color: #2965f1;
   position: absolute;
   left: 25%;
   top: 75%;
   animation: anim-icon 1s linear infinite;
+  width: 60px !important;
+  height: 60px !important;
 }
 @keyframes anim-icon {
   0% {
@@ -121,12 +144,17 @@
 .Home .info {
   flex-grow: 1;
 }
+.Home .info P {
+  width: 50%;
+  text-align: center;
+}
 .Home .info .btn {
   background-color: #0d6efd;
+  color: #fff;
   transition: 0.3s;
 }
 .Home .info .btn:hover {
-  color: #fff;
+  color: #000;
 }
 .Home .personal-image {
   width: 160px;
@@ -136,19 +164,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  position: relative;
 }
 .Home .personal-image .front {
+  width: 100%;
+  height: 160px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 10px;
   transition: 0.3s;
+  object-fit: cover;
+  object-position: 61% center;
 }
 .Home .personal-image .front:hover {
-  top: 25px;
   transform: scale(1.2);
 }
 
@@ -164,7 +193,6 @@
   .bar {
     width: 100%;
     border-radius: 0;
-    bottom: 10px;
     left: 0;
     right: 0;
     transform: unset;
@@ -172,34 +200,46 @@
   .Home {
     flex-direction: column;
   }
-  .Home i {
+  .Home svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .Home i, .Home svg {
     z-index: 4;
     font-size: 30px;
   }
-  .Home i.html {
+  .Home i.html, .Home svg.html {
     left: 25px;
     top: 25px;
+    width: 30px !important;
+    height: 30px !important;
   }
-  .Home i.js {
+  .Home i.js, .Home svg.js {
     left: 25px;
     top: 50%;
+    width: 30px !important;
+    height: 30px !important;
   }
-  .Home i.css {
+  .Home i.css, .Home svg.css {
     right: 25px;
     top: 25px;
     transform: translateX(-25%);
+    width: 30px !important;
+    height: 30px !important;
   }
-  .Home i.react {
+  .Home i.react, .Home svg.react {
     left: 25px;
     bottom: 25px;
     top: unset;
+    width: 30px !important;
+    height: 30px !important;
   }
-  .Home i.scss {
+  .Home i.scss, .Home svg.scss {
     right: 25px;
     top: 50%;
     left: unset;
   }
-  .Home i.boot {
+  .Home i.boot, .Home svg.boot {
     right: 25px;
     bottom: 25px;
     left: unset;
@@ -216,6 +256,10 @@
     order: 2;
     flex-grow: unset;
   }
+  .Home .info P {
+    width: 100%;
+    text-align: center;
+  }
   .Home .info h1 {
     font-size: 20px;
   }
@@ -231,6 +275,10 @@
     flex-grow: unset;
   }
 }
+.primary-color {
+  color: #0d6efd;
+}
+
 .About {
   height: 95vh;
   display: flex;
@@ -277,13 +325,24 @@
 .About .info .left > ul {
   width: 100%;
   padding: 0;
-  list-style: square;
+  list-style: none;
   margin-top: 30px;
   font-size: 16px;
   position: relative;
-  left: 20px;
 }
-.About .info .left > ul li::marker {
+.About .info .left > ul li {
+  padding: 0;
+  margin-left: 0;
+}
+.About .info .left > ul li p {
+  margin: 0;
+  word-wrap: break-word;
+}
+.About .info .left > ul li p::first-letter {
+  font-size: 20px;
+  color: #0d6efd;
+}
+.About .info .left > ul li p::marker {
   color: #0d6efd;
 }
 .About .info .left .details {
@@ -298,8 +357,10 @@
   padding: 10px;
   border-radius: 4px;
   text-align: center;
-  width: 20%;
   transition: 0.3s;
+}
+.About .info .left .details div:nth-child(2) {
+  margin: 0 15px;
 }
 .About .info .left .details div:hover {
   background-color: #fff;
@@ -340,6 +401,9 @@
   }
   .About .info .left .details div p {
     font-size: 15px;
+  }
+  .About .info .left .details div:nth-child(2) {
+    margin: 0;
   }
   .About .info .left > ul li {
     white-space: break-spaces;
@@ -540,6 +604,42 @@
 
 .f {
   color: #ff5600;
+}
+
+.btn-soc {
+  background-color: #0d6efd;
+}
+
+.btn-soc:hover {
+  color: #fff;
+}
+
+.soc {
+  color: #0d6efd;
+}
+
+.btn-mov {
+  background-color: #b1b1b1;
+}
+
+.btn-mov:hover {
+  color: #fff;
+}
+
+.mov {
+  color: #b1b1b1;
+}
+
+.btn-not {
+  background-color: #e17cce;
+}
+
+.btn-not:hover {
+  color: #fff;
+}
+
+.not {
+  color: #e17cce;
 }
 
 .Protofolio {

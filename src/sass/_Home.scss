@@ -4,7 +4,13 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    i{
+    svg{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    i,svg{
+        width: 20px;
+        height: 20px;
         font-size: 50px;
         margin-right: 10px;
         &.html{
@@ -13,6 +19,8 @@
             left: 25%;
             top: 20%;
             animation: anim-icon 1s linear infinite;
+            width: 60px !important;
+            height: 60px !important;
         }
         &.css{
             color: #2965f1;
@@ -20,6 +28,8 @@
             left: 75%;
             top: 20%;
             animation: anim-icon 1s linear infinite;
+            width: 60px !important;
+            height: 60px !important;
         }
         &.js{
             color: #efd81d;
@@ -27,6 +37,8 @@
             left: 50%;
             top: 20%;
             animation: anim-icon-rl 1s linear infinite;
+            width: 60px !important;
+            height: 60px !important;
         }
         &.boot{
             color: #8912fc;
@@ -48,6 +60,8 @@
             left: 25%;
             top: 75%;
             animation: anim-icon 1s linear infinite;
+            width: 60px !important;
+            height: 60px !important;
         }
         @keyframes anim-icon {
             0%{
@@ -113,17 +127,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
-        position: relative;
+        // overflow: hidden;
         .front{
+            width: 100%;
+            height: 160px;
+            border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
             position: relative;
-            top: 10px;
             transition: 0.3s;
+            object-fit: cover;
+            object-position: 61% center;
             &:hover{
-                top: 25px;
                 transform: scale(1.2);
             }
         }
@@ -146,26 +162,38 @@
     }
     .Home{
         flex-direction: column;
-        i{
+        svg{
+            width: 30px !important;
+            height: 30px !important;
+        }
+        i,svg{
             z-index: 4;
             font-size: 30px;
             &.html{
                 left: 25px;
                 top: 25px;
+                width: 30px !important;
+                height: 30px !important;
             }
             &.js{
                 left: 25px;
                 top: 50%;
+                width: 30px !important;
+                height: 30px !important;
             }
             &.css{
                 right: 25px;
                 top: 25px;
                 transform: translateX(-25%);
+                width: 30px !important;
+                height: 30px !important;
             }
             &.react{
                 left: 25px;
                 bottom: 25px;
                 top: unset;
+                width: 30px !important;
+                height: 30px !important;
             }
             &.scss{
                 right: 25px;
