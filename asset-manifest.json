@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OmerKhaled/static/css/main.8b0b80f8.css",
-    "main.js": "/OmerKhaled/static/js/main.f858f573.js",
+    "main.css": "/OmerKhaled/static/css/main.8ca7a854.css",
+    "main.js": "/OmerKhaled/static/js/main.f6438ce1.js",
     "static/js/787.6bfed4d0.chunk.js": "/OmerKhaled/static/js/787.6bfed4d0.chunk.js",
     "static/media/newlyweds.png": "/OmerKhaled/static/media/newlyweds.777503a28690a038ae08.png",
     "static/media/movies.png": "/OmerKhaled/static/media/movies.dfc8edd1f59b54c6f64d.png",
@@ -11,20 +11,26 @@
     "static/media/pralineco.png": "/OmerKhaled/static/media/pralineco.ad98c6fdb51148645f54.png",
     "static/media/NoteApp.png": "/OmerKhaled/static/media/NoteApp.e3dee40270303b8d7fca.png",
     "static/media/E-comerce.png": "/OmerKhaled/static/media/E-comerce.7ed817548e97ce254ca6.png",
+    "static/media/NotoSans-Bold.ttf": "/OmerKhaled/static/media/NotoSans-Bold.87ca550c455e71127ce2.ttf",
+    "static/media/NotoSans-Black.ttf": "/OmerKhaled/static/media/NotoSans-Black.6d29d48137858eab7e51.ttf",
+    "static/media/NotoSans-Medium.ttf": "/OmerKhaled/static/media/NotoSans-Medium.93b8fac456d54c025376.ttf",
+    "static/media/NotoSans-Light.ttf": "/OmerKhaled/static/media/NotoSans-Light.46f8451d874033f8e7aa.ttf",
     "static/media/AJIL.png": "/OmerKhaled/static/media/AJIL.7196e6498c8bbf781911.png",
     "static/media/about-user.png": "/OmerKhaled/static/media/about-user.2ee0819bb32e42267865.png",
     "static/media/Contact us-amico.png": "/OmerKhaled/static/media/Contact us-amico.368961b139d2e5f79c83.png",
     "static/media/socialmedia.png": "/OmerKhaled/static/media/socialmedia.a85ef24bb35b1d4ae8fd.png",
+    "static/media/personalImage.jpg": "/OmerKhaled/static/media/personalImage.b728eab65ed3a8c6dbd6.jpg",
+    "static/media/bootstrap-icons.woff?": "/OmerKhaled/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/delivery_sass.png": "/OmerKhaled/static/media/delivery_sass.a490caf380304f6b7a80.png",
-    "static/media/personalImage.png": "/OmerKhaled/static/media/personalImage.594cfe009a01aded31db.png",
+    "static/media/bootstrap-icons.woff2?": "/OmerKhaled/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "static/media/Crud.png": "/OmerKhaled/static/media/Crud.98f856b6268e88ac21ca.png",
     "index.html": "/OmerKhaled/index.html",
-    "main.8b0b80f8.css.map": "/OmerKhaled/static/css/main.8b0b80f8.css.map",
-    "main.f858f573.js.map": "/OmerKhaled/static/js/main.f858f573.js.map",
+    "main.8ca7a854.css.map": "/OmerKhaled/static/css/main.8ca7a854.css.map",
+    "main.f6438ce1.js.map": "/OmerKhaled/static/js/main.f6438ce1.js.map",
     "787.6bfed4d0.chunk.js.map": "/OmerKhaled/static/js/787.6bfed4d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b0b80f8.css",
-    "static/js/main.f858f573.js"
+    "static/css/main.8ca7a854.css",
+    "static/js/main.f6438ce1.js"
   ]
 }
