@@ -37,7 +37,7 @@ function Home(){
                     I am interested in web development and software engineering and can design and
                     implement user interface components for JavaScript-based web applications.
                 </p>
-                <a className="primary" href='omer-khaled.pdf' download="Resume.pdf">
+                <a className="primary" href='Omar_khaled_Frontend_Developer_Resume.pdf' download="Omar_khaled_Frontend_Developer_Resume.pdf">
                     <button className='btn primary'>
                         Download cv
                     </button>
